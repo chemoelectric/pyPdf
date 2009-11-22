@@ -47,7 +47,7 @@ from io import BytesIO
 from .generic import (readObject, DictionaryObject, DecodedStreamObject,
         NameObject, NumberObject, ArrayObject, IndirectObject,
         ByteStringObject, StreamObject, NullObject, TextStringObject,
-        createStringObject, BooleanObject)
+        createStringObject, BooleanObject, RectangleObject)
 from .utils import (readNonWhitespace, readUntilWhitespace,
         ConvertFunctionsToVirtualList, PdfReadError, RC4_encrypt)
 
